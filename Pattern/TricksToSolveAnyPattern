@@ -1,0 +1,7 @@
+How to approach a problem
+step 1:-No. of Lines=No. of rows
+        =no. of times outer forloop will run.
+Step 2:-Identify for every row numbers
+=>How many columns are there
+=>types of elements in column.
+step 3:-What do you need to print.
