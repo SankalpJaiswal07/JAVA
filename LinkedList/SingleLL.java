@@ -2,7 +2,7 @@ package LinkedList;
 
 public class SingleLL
 {
-    private Node head;
+    Node head;
     private Node tail;
     private int size;
     public SingleLL()
@@ -120,6 +120,13 @@ public class SingleLL
             temp=temp.next;
         }
         System.out.println("END");
+    }
+    public  void display_reverse(Node head)
+    {
+        if(head==null) return;
+
+        display_reverse(head.next);
+        System.out.print(head.value+"->");
     }
 
  private class Node

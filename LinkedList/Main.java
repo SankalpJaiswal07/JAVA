@@ -1,9 +1,11 @@
 package LinkedList;
 
+import org.w3c.dom.Node;
+
 public class Main
 {
     public static void main(String[] args)
-    {/*
+    {
         SingleLL ll=new SingleLL();
         ll.insertfirst(6);
         ll.insertfirst(12);
@@ -13,6 +15,7 @@ public class Main
         ll.insert(50,3);
         ll.display();
 
+
         System.out.println(ll.deleteFirst());
 
         ll.display();
@@ -20,7 +23,7 @@ public class Main
         ll.display();
         System.out.println(ll.delete(2));
         ll.display();
-       */
+        ll.display_reverse(ll.head);
 
 /*        DoublyLL dll=new DoublyLL();
        dll.insertFirst(6);
@@ -34,7 +37,7 @@ public class Main
 
         dll.display();*/
 
-        CircularLL cll=new CircularLL();
+    /*    CircularLL cll=new CircularLL();
         cll.insert(23);
         cll.insert(35);
         cll.insert(45);
@@ -42,6 +45,15 @@ public class Main
         cll.display();
         cll.delete(45);
 
-        cll.display();
+        cll.display();*/
+
+      /*  Demo sll=new Demo();
+        sll.insertfirst(12);
+        sll.insertfirst(24);
+
+        sll.insertlast(6);
+        sll.insert(16,2);
+
+        sll.display();*/
     }
 }
