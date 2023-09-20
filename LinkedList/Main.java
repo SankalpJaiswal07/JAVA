@@ -6,6 +6,7 @@ public class Main
 {
     public static void main(String[] args)
     {
+/*
         SingleLL ll=new SingleLL();
         ll.insertfirst(6);
         ll.insertfirst(12);
@@ -14,16 +15,19 @@ public class Main
         ll.inserlast(3);
         ll.insert(50,3);
         ll.display();
+        ll.insertrec(88,2);
+        ll.display();
+*/
 
 
-        System.out.println(ll.deleteFirst());
+      /*  System.out.println(ll.deleteFirst());
 
         ll.display();
         System.out.println(ll.deleteLast());
         ll.display();
         System.out.println(ll.delete(2));
         ll.display();
-        ll.display_reverse(ll.head);
+        ll.display_reverse(ll.head);*/
 
 /*        DoublyLL dll=new DoublyLL();
        dll.insertFirst(6);
@@ -46,14 +50,19 @@ public class Main
         cll.delete(45);
 
         cll.display();*/
-
-      /*  Demo sll=new Demo();
+        Demo sll=new Demo();
         sll.insertfirst(12);
         sll.insertfirst(24);
 
         sll.insertlast(6);
         sll.insert(16,2);
 
-        sll.display();*/
+        sll.display();
+
+        System.out.println(sll.deletefirst());
+        sll.display();
+        sll.insertrec(88,2);
+        sll.display();
+
     }
 }
