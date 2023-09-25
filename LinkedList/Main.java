@@ -53,16 +53,16 @@ public class Main
         Demo sll=new Demo();
         sll.insertfirst(12);
         sll.insertfirst(24);
+        sll.insertfirst(36);
 
         sll.insertlast(6);
-        sll.insert(16,2);
 
-        sll.display();
+      /*  sll.display();
 
         System.out.println(sll.deletefirst());
         sll.display();
         sll.insertrec(88,2);
-        sll.display();
+        sll.display();*/
 
     }
 }
